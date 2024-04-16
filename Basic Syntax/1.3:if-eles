@@ -1,0 +1,31 @@
+How to use selection structues?
+
+
+if:
+```golang
+if b > 10 {
+    calc()
+}
+```
+
+if-else
+```golang
+if b > 10 {
+    calc1()
+}
+else {
+    calc2()
+}
+```
+
+if-elseif-else
+```golang
+if b > 10 {
+    calc1()
+}
+else if b < 5 {
+    calc2()
+}
+else {
+    calc3()
+}

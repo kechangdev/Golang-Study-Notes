@@ -1,0 +1,44 @@
+Declare ans initialize:
+
+```golang
+str := "This\nis\na\nstring"
+```
+
+```golang
+str := `This
+is
+a
+String`
+```
+
+Traverse:
+
+```golang
+for _, ch := range str {
+    fmt.Println(string(ch))
+}
+```
+
+```golang
+str := "Hi, this is kechang"
+arr := []rune(str)
+for _, ch := range arr {
+    fmt.Println(string(ch))
+}
+```
+
+Modify:
+In Golang, We can't modify a string directly.
+
+```golang
+str := "Hi  this is kechang"
+s := []rune(str)
+s[2] = ','
+
+for _, ch := range s {
+    fmt.Printf(string(ch))
+}
+```
+
+PS:
+In Dolang, rune is an alias for int32 ans it is used primarily to handle UTF-8 characters, and a byte is an alias for uint8 and it used primarily to handle ASCII characters.

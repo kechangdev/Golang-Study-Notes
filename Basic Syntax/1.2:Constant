@@ -1,0 +1,14 @@
+Declare:
+
+```golang
+const name datatype = value
+```
+
+Likewise, we can initialize multiple constants:
+
+```golang
+const (
+    e = 2.7182818
+    pi = 3.1415926
+)
+```

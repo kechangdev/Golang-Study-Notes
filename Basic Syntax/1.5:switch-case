@@ -1,0 +1,28 @@
+How to use switch structure?
+
+```golang
+switch value {
+    case case1:
+	calc1()
+    case case2:
+	calc2()
+    case case3:
+  	calc3()
+    ...
+
+    default:
+	default_calc()
+}
+```
+
+EX:
+
+```golang
+switch value {
+    case l > 10 && r < 10 :
+	calc1()
+    case value > 10 :
+	calc2()
+    ...
+}
+```

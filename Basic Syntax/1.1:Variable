@@ -1,0 +1,39 @@
+Declare:
+
+```golang
+var name datatype
+```
+
+For example, if we want to declare a integer which named a with value 10, in that case, we should write:
+
+```golang
+var a int
+a = 10
+```
+
+Or:
+
+```golang
+a := 10
+```
+
+Moreover, we can init multiple variables:
+
+```golang
+var a, b int
+```
+
+Or: 
+
+```golang
+var (
+   a int
+   b int
+)
+```
+
+Or:
+
+```golang
+a, b := 1, 2
+```
