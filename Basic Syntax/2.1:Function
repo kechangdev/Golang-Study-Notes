@@ -1,0 +1,23 @@
+Declare:
+
+```golang
+func function_name(parameter_list) [Return_types] {
+    calc()
+}
+```
+
+Anonymity:
+
+```golang
+f := func(name datatype) {
+    calc()
+}
+
+f(value)
+```
+
+```golang
+func(name datatype) {
+    calc()
+}(value)
+```

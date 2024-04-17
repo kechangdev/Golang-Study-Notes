@@ -1,0 +1,16 @@
+In Go language, the use of "defer" is quite widespread. Here's a simple example:
+
+```go
+func writeFile(filename string) {
+    file, err := os.Create(filename)
+    if err != nil {
+        return err
+    }
+    defer file.Close()
+
+    // Write to the file...
+}
+```
+
+In the above code, "defer file.Close()" signifies that before writeFile() function returns (no matter whether it returns normally or due to an error), file.Close() operation will be executed, ensuring that the file descriptor is properly closed.
+"Defer" provides a convenient way to handle scenarios where resources need to be cleaned up regardless of the outcome of some operation.
